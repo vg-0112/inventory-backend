@@ -23,7 +23,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 // Fix Cors
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://pinvent.vercel.app"],
+    origin: ["http://localhost:3000", "https://inventory-frontend-vvma.onrender.com"],
     credentials: true,
   })
 );
